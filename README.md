@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏀 Nike Website Rebrand (Next.js)
+A modern rebrand of Nike’s digital experience built with Next.js and TypeScript, focusing on premium UI/UX, performance, and responsiveness.
+This project showcases modern frontend architecture, clean design systems, and scalable component structure.
 
-## Getting Started
+✨ Features
+Complete UI/UX rebrand with a premium look & feel
+Advanced product filtering and real-time search
+Shopping cart functionality
+Dark-mode focused design with glassmorphism effects
+Fully responsive across all devices
+Optimized performance using Next.js App Router
 
-First, run the development server:
+🛠️ Tech Stack
+Framework: Next.js
+Language: TypeScript
+Styling: Modern CSS / Tailwind-style utility approach
+Architecture: App Router (app/ directory)
+Fonts: Optimized using next/font
 
-```bash
+🚀 Getting Started
+Install dependencies
+Copy code
+Bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+Run the development server
+Copy code
+Bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open 👉 http://localhost:3000 in your browser.
+You can start editing the main page here:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Copy code
+app/page.tsx
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Changes update automatically during development.
 
-## Learn More
+📂 Project Structure (Overview)
+Copy code
+Text
+app/
+ ├── page.tsx        # Main landing page
+ ├── layout.tsx      # Root layout
+ └── components/     # Reusable UI components
+public/
+ └── assets/         # Images & media
+ 
+🌐 Deployment
+The easiest way to deploy this project is with Vercel, the creators of Next.js.
+Copy code
+Bash
+npm run build
+Follow the official Next.js deployment guide for production setup.
 
-To learn more about Next.js, take a look at the following resources:
+📌 Notes
+This project is for learning, design exploration, and portfolio demonstration
+Not affiliated with or endorsed by Nike
+Built as part of a frontend / full-stack learning journey
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🙌 Author
+Built with a focus on modern web design, performance, and clean architecture.
